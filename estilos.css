@@ -1,0 +1,191 @@
+ :root {
+      --background: #f4f4f4;
+      --card: #ffffff;
+      --text: #2d2d2d;
+      --gray: #666;
+      --border: #dddddd;
+      --blue: #2979ff;
+      --orange: #ff7043;
+      --green: #66bb6a;
+      --radius: 14px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--background);
+      color: var(--text);
+    }
+
+    header {
+      background: var(--blue);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 800;
+    }
+
+    .info-academica {
+      background: var(--card);
+      margin: 30px auto;
+      max-width: 800px;
+      border-radius: var(--radius);
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      border: 1px solid var(--border);
+    }
+
+    .info-academica p {
+      font-size: 1.1rem;
+      color: var(--gray);
+      margin: 10px 0;
+    }
+
+    h2 {
+      text-align: center;
+      color: var(--text);
+      margin: 50px 0 20px;
+      font-size: 2rem;
+    }
+
+    .favoritos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .favorito {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 20px;
+      width: 220px;
+      text-align: center;
+      transition: 0.3s ease;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+      border-top: 4px solid var(--blue);
+    }
+
+    .favorito:nth-child(2) {
+      border-top-color: var(--orange);
+    }
+
+    .favorito:nth-child(3) {
+      border-top-color: var(--green);
+    }
+
+    .favorito img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid var(--border);
+      margin-bottom: 10px;
+    }
+
+    .favorito p {
+      font-weight: 600;
+      color: var(--gray);
+    }
+
+    table {
+      width: 90%;
+      max-width: 800px;
+      margin: 30px auto;
+      border-collapse: collapse;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    th, td {
+      padding: 16px;
+      text-align: center;
+      font-size: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    th {
+      background-color: var(--blue);
+      color: white;
+      font-weight: 600;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    footer {
+      background: #2d2d2d;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 60px;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 768px) {
+      .favoritos {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .favorito {
+        width: 90%;
+      }
+
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      h2 {
+        font-size: 1.6rem;
+      }
+    }
+     table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  thead {
+    background-color: #4a90e2; /* color azul suave */
+    color: white;
+  }
+
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f6fc; /* azul clarito alterno */
+  }
+
+  tr:hover {
+    background-color: #e0edff; /* efecto hover */
+  }
+
+  h2 {
+    text-align: center;
+    color: #4a90e2;
+    font-family: Arial, sans-serif;
+  }
