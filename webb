@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marcos Caño Molina</title>
+  <link href="estilos.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <header>
+    <h1>Marcos Caño Molina</h1>
+  </header>
+
+  <div class="info-academica">
+    <p><strong>Instituto:</strong> IES Fernando III</p>
+    <p><strong>Localidad:</strong> Jaén</p>
+    <p><strong>Teléfono:</strong> 0000000</p>
+  </div>
+
+  <h2>Personajes favoritos de Torrente</h2>
+
+  <div class="favoritos">
+    <div class="favorito">
+      <img src="https://s1.ppllstatics.com/elcorreo/www/multimedia/2025/07/15/torrente-segura-k5YE-U2302376625819X0H-1200x840@El%20Correo.JPG" alt="Torrente">
+      <p>Torrente</p>
+    </div>
+    <div class="favorito">
+      <img src="https://e01-elmundo.uecdn.es/magazine/m78/imagenes/torrente1.jpg" alt="Cuco">
+      <p>Cuco</p>
+    </div>
+    <div class="favorito">
+      <img src="https://image.ondacero.es/clipping/cmsimages01/2011/11/02/C4277E90-2ADC-4ADE-8EE7-F49CFC15FCCA/4.jpg?crop=930,523,x0,y48&width=910&height=512&optimize=high&format=webply" alt="Mauricio Colmenero">
+      <p>Mauricio Colmenero</p>
+    </div>
+  </div>
+
+  <h2>Formación académica</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Curso</th>
+        <th>Centro</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>ESO</td>
+        <td>IES Fernando III</td>
+      </tr>
+      <tr>
+        <td>Bachillerato</td>
+        <td>IES Fernando III</td>
+      </tr>
+      <tr>
+        <td>Grado Superior</td>
+        <td>IES Fernando III</td>
+      </tr>
+    </tbody>
+  </table>
+
+<h2>Horario Semanal</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Lunes</th>
+      <th>Martes</th>
+      <th>Miércoles</th>
+      <th>Jueves</th>
+      <th>Viernes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Física</td>
+      <td>Mates</td>
+      <td>Lengua</td>
+      <td>TIC</td>
+      <td>Religión</td>
+    </tr>
+    <tr>
+      <td>Lengua</td>
+      <td>Física</td>
+      <td>Mates</td>
+      <td>Tecnología</td>
+      <td>E.F</td>
+    </tr>
+    <tr>
+      <td>Historia</td>
+      <td>Lengua</td>
+      <td>Filosofía</td>
+      <td>Física</td>
+      <td>Lengua</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+</body>
+
+</html>
